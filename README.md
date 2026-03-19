@@ -1,5 +1,7 @@
 # Pneumonia Detection from Chest X-Rays 🫁
 
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/mohamedafkir90/pneumonia-check-model)
+
 This project is a Deep Learning model built to automatically detect and classify pneumonia from chest X-ray images. It uses a Convolutional Neural Network (CNN) trained on a balanced dataset of medical images to distinguish between healthy lungs and lungs infected with pneumonia.
 
 ## 🛠️ Technologies Used
@@ -10,7 +12,7 @@ This project is a Deep Learning model built to automatically detect and classify
 * **Kaggle Notebooks:** Environment used for model development and GPU acceleration (NVIDIA T4/P100).
 
 ## 📊 The Dataset
-The model is trained on a perfectly balanced structure of Chest X-Ray images to prevent class bias from https://www.kaggle.com/datasets/yusufmurtaza01/chest-xray-pneumonia-balanced-dataset. 
+The model is trained on a perfectly balanced structure of Chest X-Ray images to prevent class bias, sourced from the [Chest X-Ray Pneumonia Balanced Dataset](https://www.kaggle.com/datasets/yusufmurtaza01/chest-xray-pneumonia-balanced-dataset). 
 The data is divided into three directories:
 * **Train:** 6,800 images (3,400 NORMAL, 3,400 PNEUMONIA)
 * **Validation:** 1,700 images (850 NORMAL, 850 PNEUMONIA)
@@ -26,7 +28,8 @@ The core of this project is a custom Convolutional Neural Network (CNN) designed
 4.  **CPU/GPU Optimization:** Implemented `tf.data.AUTOTUNE` and `prefetching` to eliminate data bottlenecks and keep the GPU fully utilized during training.
 
 ## 🚀 How to Run
-1. Clone this repository to your local machine or open it in a Kaggle Notebook.
-2. Ensure you have the required libraries installed:
+1. You can instantly view and run the code in my **[Interactive Kaggle Notebook](https://www.kaggle.com/code/mohamedafkir90/pneumonia-check-model)**.
+2. Alternatively, to run locally, clone this repository to your machine.
+3. Ensure you have the required libraries installed:
    ```bash
    pip install tensorflow opencv-python matplotlib
