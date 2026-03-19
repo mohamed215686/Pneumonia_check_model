@@ -10,7 +10,8 @@ This project is a Deep Learning model built to automatically detect and classify
 * **Kaggle Notebooks:** Environment used for model development and GPU acceleration (NVIDIA T4/P100).
 
 ## 📊 The Dataset
-The model is trained on a perfectly balanced structure of Chest X-Ray images to prevent class bias. The data is divided into three directories:
+The model is trained on a perfectly balanced structure of Chest X-Ray images to prevent class bias from https://www.kaggle.com/datasets/yusufmurtaza01/chest-xray-pneumonia-balanced-dataset. 
+The data is divided into three directories:
 * **Train:** 6,800 images (3,400 NORMAL, 3,400 PNEUMONIA)
 * **Validation:** 1,700 images (850 NORMAL, 850 PNEUMONIA)
 * **Test:** 30 images (15 NORMAL, 15 PNEUMONIA)
